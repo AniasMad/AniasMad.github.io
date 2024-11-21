@@ -8,8 +8,14 @@ $primary: #c060f0;
 
 $secondary: #30164e; 
 
+$info: #7e51d1; 
+
 h1, h2, h3, h4, h5, h6{
     font-family: $header-fonts;
-}
+};
+
+a{
+    text-decoration: none;
+};
 
 @import "../node_modules/bootstrap/scss/bootstrap";
